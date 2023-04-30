@@ -23,7 +23,7 @@ import authRouter from './routes/authRoutes.js'
 import jobsRouter from './routes/jobsRoutes.js'
 
 //middleware
-
+import KommunicateChat from './middleware/Chat.js'
 import notFoundMiddleware from './middleware/not-found.js';
 import errorHandlerMiddleware from './middleware/error-handler.js';
 import authenticateUser from './middleware/auth.js';
@@ -63,6 +63,7 @@ app.get('*', function (request, response) {
 
 app.use(notFoundMiddleware)
 app.use(errorHandlerMiddleware)
+app.use(KommunicateChat)
 
 const port = process.env.PORT || 5000;
 
