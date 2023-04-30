@@ -65,7 +65,7 @@ app.use(notFoundMiddleware)
 app.use(errorHandlerMiddleware)
 app.use(KommunicateChat)
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 10000;
 
 
 
