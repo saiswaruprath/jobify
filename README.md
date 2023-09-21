@@ -14,5 +14,5 @@
 
 ### Next comes the stats page which consists of all the job applications that a user has based on pending status, interviews scheduled and applications declined. There is also the added feature of providing details of how many monthly applications a user has applied and they can view the details either as a bar chart or area chart.
 
-### you can give it a try at- 
-https://jobify-io31.onrender.com 
+
+
